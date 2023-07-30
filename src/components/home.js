@@ -1,4 +1,5 @@
 import React  from "react";
+import './styles/home.css'
 
 
 export function Home(){
@@ -6,7 +7,11 @@ export function Home(){
 return(
 
 
-<div>This is the main page</div>
+<div className="mainContainer">
+    <h1 className="name">Hisham .</h1>
+
+
+</div>
 
 )
 

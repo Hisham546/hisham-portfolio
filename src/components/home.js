@@ -8,8 +8,9 @@ return(
 
 
 <div className="mainContainer">
+    <div className="headerContainer">
     <h1 className="name">Hisham .</h1>
-
+    </div>
 
 </div>
 

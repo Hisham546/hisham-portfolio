@@ -6,29 +6,32 @@ body, html {
   
 .mainContainer {
     box-sizing: border-box;
-background-color: white;
- width:100vw;
- height: 100vh;
-}
-.name{
-color:white
+    background-color: white;
+    width:100vw;
+    height: 100vh;
+ }
+.topHeadings{
+    color:white;
+    font-size: medium;
+    
 
 
-}
-.myName{
+ }
+ .topHeadings:hover{
   color: #D62C40
 
-
-
+ }
+.myName{
+    color: #D62C40
 }
 .headerContainer{
- width: 95%;
- height: 10%;
- margin-left: 2.5%;
- flex-direction: row;
- display: flex;
- justify-content: space-around;
- border-bottom: 2px solid black;
+    width: 65%;
+    height: 10%;
+    margin-left: 32.5%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+
  
 
 

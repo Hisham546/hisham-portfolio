@@ -14,15 +14,14 @@ body, html {
     color:white;
     font-size: medium;
     
-
-
  }
  .topHeadings:hover{
   color: #D62C40
 
  }
 .myName{
-    color: #D62C40
+    color: #D62C40;
+    margin-left: 2%;
 }
 .headerContainer{
     width: 65%;
@@ -32,7 +31,17 @@ body, html {
     display: flex;
     justify-content: space-around;
 
- 
+}
+.myNameDiv{
+width: 30%;
+height: 10;
+margin-left: 5%;
+flex-direction: row;
+display: flex;
+
+}
+.helloText{
+color: white;
 
 
 }

@@ -18,9 +18,10 @@ return(
     <h2 className="topHeadings">Portfolio</h2>
     <h2 className="topHeadings">Contact </h2>   
     </div>
-   
-    <h2  className="myName">Hello, i'm Muhammed Hisham </h2> 
-
+   <div className="myNameDiv">
+    <h2  className="helloText">Hello,i'm  </h2> 
+    <h2  className="myName"> Muhammed Hisham </h2> 
+    </div>
 </div>
 
 )

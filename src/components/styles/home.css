@@ -11,7 +11,13 @@ background-color: white;
  height: 100vh;
 }
 .name{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:black
+
+
+}
+.myName{
+  color: #D62C40
+
 
 
 }

@@ -21,7 +21,9 @@ return(
    <div className="myNameDiv">
     <h2  className="helloText">Hello,i'm  </h2> 
     <h2  className="myName"> Muhammed Hisham </h2> 
+  
     </div>
+    <h2  className="mobileApp"> Mobile App Developer </h2>   
 </div>
 
 )

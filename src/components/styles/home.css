@@ -19,10 +19,7 @@ body, html {
   color: #D62C40
 
  }
-.myName{
-    color: #D62C40;
-    margin-left: 2%;
-}
+
 .headerContainer{
     width: 65%;
     height: 10%;
@@ -33,7 +30,7 @@ body, html {
 
 }
 .myNameDiv{
-width: 30%;
+width: 40%;
 height: 10;
 margin-left: 5%;
 flex-direction: row;
@@ -42,6 +39,17 @@ display: flex;
 }
 .helloText{
 color: white;
+font-size: 40px
 
+}
+.mobileApp{
+color:white;
+font-size: 25px;
+margin-left: 5%;
 
+}
+.myName{
+  color: #D62C40;
+  margin-left: 2%;
+  font-size: 40px
 }

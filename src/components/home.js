@@ -23,7 +23,7 @@ export function Home() {
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
                         "Hello",
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        1000, 
                         "I'm Muhammed Hisham ",
                         1000,
                         'Application Developer',

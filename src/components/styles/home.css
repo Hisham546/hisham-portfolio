@@ -15,11 +15,15 @@ html {
 .topHeadings {
   color: white;
   font-size: medium;
-
+	text-decoration: none;
+	background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+	transition: 1s background-size;
 }
 
 .topHeadings:hover {
-  color: #D62C40
+  color: #D62C40;
+  background-size: 100% .1em;
+  background-position: left bottom;
 }
 
 .headerContainer {

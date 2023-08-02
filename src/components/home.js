@@ -18,14 +18,13 @@ export function Home() {
             </div>
     
             <div className="myNameDiv">
-                <h2 className="helloText">Hello,i'm  </h2>
-                <h2 className="myName"> Muhammed Hisham </h2>
+               
                 <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-        "Hello,i'm",
+        "Hello",
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        ' Muhammed Hisham ',
+        "I'm Muhammed Hisham ",
         1000,
         'Application Developer',
         1000,
@@ -33,11 +32,12 @@ export function Home() {
         1000
       ]}
       wrapper="span"
-      speed={50}
-      preRenderFirstString={true}
+      speed={45}
+      cursor={false}
+
       omitDeletionAnimation={false}
-      style={{ fontSize: '2em', display: 'inline-block',color:'white' }}
-      repeat={0}
+      style={{ fontSize: '3em', display: 'inline-block',color:'white',fontFamily:"monospace" }}
+      repeat={Infinity}
     />
             </div>
 

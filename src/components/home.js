@@ -16,29 +16,29 @@ export function Home() {
                 <h2 className="topHeadings">Portfolio</h2>
                 <h2 className="topHeadings">Contact </h2>
             </div>
-    
+
             <div className="myNameDiv">
-               
+
                 <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        "Hello",
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        "I'm Muhammed Hisham ",
-        1000,
-        'Application Developer',
-        1000,
-        'I create UI rich apps ',
-        1000
-      ]}
-      wrapper="span"
-      speed={45}
-      cursor={false}
-      deletionSpeed={{type: "keyStrokeDelayInMs", value: 60}}
-      omitDeletionAnimation={false}
-      style={{ fontSize: '3em', display: 'inline-block',color:'white',fontFamily:"monospace" }}
-      repeat={Infinity}
-    />
+                    sequence={[
+                        // Same substring at the start will only be typed out once, initially
+                        "Hello",
+                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        "I'm Muhammed Hisham ",
+                        1000,
+                        'Application Developer',
+                        1000,
+                        'I create UI rich apps ',
+                        1000
+                    ]}
+                    wrapper="span"
+                    speed={45}
+                    cursor={false}
+                    deletionSpeed={{ type: "keyStrokeDelayInMs", value: 60 }}
+                    omitDeletionAnimation={false}
+                    style={{ fontSize: '3em', display: 'inline-block', color: 'white', fontFamily: "monospace" }}
+                    repeat={Infinity}
+                />
             </div>
 
 

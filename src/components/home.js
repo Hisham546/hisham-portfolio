@@ -34,7 +34,7 @@ export function Home() {
       wrapper="span"
       speed={45}
       cursor={false}
-
+      deletionSpeed={{type: "keyStrokeDelayInMs", value: 60}}
       omitDeletionAnimation={false}
       style={{ fontSize: '3em', display: 'inline-block',color:'white',fontFamily:"monospace" }}
       repeat={Infinity}

@@ -1,10 +1,24 @@
 import React from "react";
-import { useState } from "react";
+import  { useState, useEffect } from "react";
 import './styles/home.css'
 import image from "./assets/images/abstract-textured-backgound.jpg"
 import { TypeAnimation } from 'react-type-animation';
+
 export function Home() {
 
+    const [scrolled, setScrolled] = useState(false);
+    const handleScroll = () => {
+        console.log('hello')
+        const scrollY = window.scrollY;
+        // Update the state based on your preferred scroll position threshold
+        setScrolled(scrollY > 500); // Set '200' to the position where you want the content change to occur
+        console.log(scrolled)
+      };
+      useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+      
+        return () => window.removeEventListener('scroll', handleScroll);
+      },[])
     return (
 
 
@@ -13,7 +27,7 @@ export function Home() {
             <div className="headerContainer">
                 <h2 className="topHeadings">Home</h2>
                 <h2 className="topHeadings">About me </h2>
-                <h2 className="topHeadings">Portfolio</h2>
+                <h2 className="topHeadings" >Portfolio</h2>
                 <h2 className="topHeadings">Contact </h2>
             </div>
 
@@ -23,13 +37,12 @@ export function Home() {
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
                         "Hello",
-                        1000, 
+                        1000,
                         "I'm Muhammed Hisham ",
                         1000,
                         'Application Developer',
                         1000,
-                        'I create UI rich apps ',
-                        1000
+                       
                     ]}
                     wrapper="span"
                     speed={45}
@@ -40,8 +53,23 @@ export function Home() {
                     repeat={Infinity}
                 />
             </div>
+            
+        <div className="additionalContent">
+          {/* Add your additional content here */}
+          <h3>Additional Content</h3>
+          <p>This content will appear when scrolled.</p>
+          <h3>Additional Content</h3>
+          <p>This content will appear when scrolled.</p>
+          <h3>Additional Content</h3>
+          <p>This content will appear when scrolled.</p>
+          <h3>Additional Content</h3>
+          <p>This content will appear when scrolled.</p>
+          <h3>Additional Content</h3>
+          <p>This content will appear when scrolled.</p>
+          <h3>Additional Content</h3>
 
-
+        </div>
+   
         </div>
 
     )

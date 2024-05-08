@@ -1,7 +1,7 @@
 import React from "react";
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import './styles/home.css'
-import image from "./assets/images/abstract-textured-backgound.jpg"
+import image from "./assets/images/raybilcliff.jpg"
 import { TypeAnimation } from 'react-type-animation';
 
 export function Home() {
@@ -13,12 +13,12 @@ export function Home() {
         // Update the state based on your preferred scroll position threshold
         setScrolled(scrollY > 500); // Set '200' to the position where you want the content change to occur
         console.log(scrolled)
-      };
-      useEffect(() => {
+    };
+    useEffect(() => {
         window.addEventListener('scroll', handleScroll);
-      
+
         return () => window.removeEventListener('scroll', handleScroll);
-      },[])
+    }, [])
     return (
 
 
@@ -42,7 +42,7 @@ export function Home() {
                         1000,
                         'Application Developer',
                         1000,
-                       
+
                     ]}
                     wrapper="span"
                     speed={45}
@@ -53,23 +53,9 @@ export function Home() {
                     repeat={Infinity}
                 />
             </div>
-            
-        <div className="additionalContent">
-          {/* Add your additional content here */}
-          <h3>Additional Content</h3>
-          <p>This content will appear when scrolled.</p>
-          <h3>Additional Content</h3>
-          <p>This content will appear when scrolled.</p>
-          <h3>Additional Content</h3>
-          <p>This content will appear when scrolled.</p>
-          <h3>Additional Content</h3>
-          <p>This content will appear when scrolled.</p>
-          <h3>Additional Content</h3>
-          <p>This content will appear when scrolled.</p>
-          <h3>Additional Content</h3>
 
-        </div>
-   
+
+
         </div>
 
     )

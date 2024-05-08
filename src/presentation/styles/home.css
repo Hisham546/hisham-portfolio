@@ -9,22 +9,22 @@ html {
   background-color: white;
   width: 100vw;
   height: 100vh;
-  overflow:auto;
+  overflow: auto;
   scroll-behavior: smooth;
 
-  
+
 }
 
 .topHeadings {
   color: white;
   font-size: medium;
-	text-decoration:none;
-	background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
-	transition: 1s background-size;
+  text-decoration: none;
+  background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+  transition: 1s background-size;
 }
 
 .topHeadings:hover {
-  color: #D62C40;
+  color: #E0AB2B;
   background-size: 100% .1em;
   background-position: left bottom;
   cursor: pointer;
@@ -43,7 +43,7 @@ html {
 .myNameDiv {
   width: 40%;
   height: 8;
-  margin-left: 5%;
+  margin-left: 25%;
   margin-top: 8%;
   flex-direction: row;
   display: flex;
@@ -70,22 +70,25 @@ html {
   margin-left: 2%;
   font-size: 40px
 }
+
 .content {
-margin-top: 150px;
+  margin-top: 150px;
   width: 50%;
   height: 50%;
-background-color: #D62C40;
+  background-color: #D62C40;
 
 }
 
 .container:hover .content {
-  max-height: 200px; /* Adjust this value to control how much the content scrolls */
+  max-height: 200px;
+  /* Adjust this value to control how much the content scrolls */
   transition: max-height 0.3s ease-in;
 }
-.additionalContent{
-width: 50%;
-height: 50%;
-background-color: #D62C40;
+
+.additionalContent {
+  width: 50%;
+  height: 50%;
+  background-color: #D62C40;
 
 
 }

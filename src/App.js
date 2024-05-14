@@ -9,6 +9,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import About from "./components/data/about/about";
 
 import ScrollToTop from "./components/data/ScrollToTop";
 
@@ -28,11 +29,12 @@ function App() {
 
   return (
     <Router>
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" >
         <NavBar />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
 
         </Routes>
       </div>

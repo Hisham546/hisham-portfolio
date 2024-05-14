@@ -1,0 +1,97 @@
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-image:  url(../assets/images/mountain.jpg);
+
+}
+
+html {
+    --section-background-color: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.582),
+            rgba(12, 8, 24, 0.904));
+
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.678),
+            rgba(12, 10, 22, 0.863));
+
+    --imp-text-color: #c770f0;
+}
+
+.navbar .logo {
+    width: 150px;
+    height: 50px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar button {
+    background: transparent;
+    font-size: 16px;
+    columns: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: 0.3s;
+
+}
+
+.navbar button:hover {
+    color: #fff4f2;
+}
+
+.navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.navbar li {
+    cursor: pointer;
+}
+
+.navbar-search-icons {
+    position: relative;
+}
+
+.navbar-search-icons .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+.topHeadings {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+    transition: 1s background-size;
+}
+
+.topHeadings:hover {
+    color: #E0AB2B;
+    background-size: 100% .1em;
+    background-position: left bottom;
+    cursor: pointer;
+}
+
+.link {
+    color: inherit; /* Ensures Link inherits the color property */
+    text-decoration: inherit; /* Ensures Link inherits the text-decoration property */
+}

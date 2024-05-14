@@ -1,63 +1,50 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import './styles/home.css'
-import image from '../components/assets/images/raybilcliff.jpg'
+import './home.css'
+import image from '../components/assets/images/abstract-textured-backgound.jpg'
 import { TypeAnimation } from 'react-type-animation';
-
+import { Container, Row, Col } from "react-bootstrap";
+import Type from "../components/data/Type";
 export function Home() {
 
-    // const [scrolled, setScrolled] = useState(false);
-    // const handleScroll = () => {
-    //     console.log('hello')
-    //     const scrollY = window.scrollY;
-    //     // Update the state based on your preferred scroll position threshold
-    //     setScrolled(scrollY > 500); // Set '200' to the position where you want the content change to occur
-    //     console.log(scrolled)
-    // };
-    // useEffect(() => {
-    //     window.addEventListener('scroll', handleScroll);
 
-    //     return () => window.removeEventListener('scroll', handleScroll);
-    // }, [])
     return (
+        <section>
+            <Container fluid className="home-section" id="home">
 
+                <Container  className="home-content">
+                    <Row>
+                        <Col md={7} className="home-header">
+                            <h1 style={{ paddingBottom: 15 }} className="heading">
+                                Hi There!{" "}
+                                <span className="wave" role="img" aria-labelledby="wave">
+                                    👋🏻
+                                </span>
+                            </h1>
 
-        <div style={{ backgroundImage: `url(${image})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}
-            className="mainContainer">
-            {/* <div className="headerContainer">
-                <h2 className="topHeadings">Home</h2>
-                <h2 className="topHeadings">About me </h2>
-                <h2 className="topHeadings" >Portfolio</h2>
-                <h2 className="topHeadings">Contact </h2>
-            </div> */}
+                            <h1 className="heading-name">
+                                I'M
+                                <strong className="main-name"> MUHAMMED HISHAM</strong>
+                            </h1>
 
-            <div className="myNameDiv">
+                            <div style={{ padding: 50, textAlign: "left" }}>
+                                <Type />
+                            </div>
+                        </Col>
 
-                <TypeAnimation
-                    sequence={[
-                        // Same substring at the start will only be typed out once, initially
-                        "Hello",
-                        1000,
-                        "I'm Muhammed Hisham ",
-                        1000,
-                        'Application Developer',
-                        1000,
+                        <Col md={5} style={{ paddingBottom: 20 }}>
+                            {/* <img
+                  src={homeLogo}
+                  alt="home pic"
+                  className="img-fluid"
+                  style={{ maxHeight: "450px" }}
+                /> */}
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
 
-                    ]}
-                    wrapper="span"
-                    speed={45}
-                    cursor={false}
-                    deletionSpeed={{ type: "keyStrokeDelayInMs", value: 60 }}
-                    omitDeletionAnimation={false}
-                    style={{ fontSize: '3em', display: 'inline-block', color: 'white', fontFamily: "monospace" }}
-                    repeat={Infinity}
-                />
-            </div>
-
-
-
-        </div>
-
+        </section>
     )
 
 

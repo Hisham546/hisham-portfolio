@@ -9,7 +9,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import About from "./components/data/about/about";
+import About from "./presentation/about/about";
 
 import ScrollToTop from "./components/data/ScrollToTop";
 

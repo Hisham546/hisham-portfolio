@@ -96,11 +96,14 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(../components/assets/images/mountain.jpg);
+  /* background-image: var(--image-gradient), url(../components/assets/images/mountain.jpg); */
   background-position: top center;
+  background-color: black;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  justify-content: center;
+  display: flex;
 }
 
 html {
@@ -121,7 +124,7 @@ html {
 
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 14rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -131,7 +134,7 @@ html {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 450px !important;
 }
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -169,7 +172,7 @@ html {
 }
 .heading-name {
   font-size: 2.5em !important;
-  padding-left: 45px !important;
+  padding-left: 500px !important;
 }
 .main-name {
   color: #cd5ff8;

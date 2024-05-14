@@ -2,7 +2,7 @@
     padding: 20px 0px;
     display: flex;
     justify-content: space-between;
-    background-image:  url(../assets/images/mountain.jpg);
+     background-color: black;
 
 }
 
@@ -85,7 +85,7 @@ html {
 }
 
 .topHeadings:hover {
-    color: #E0AB2B;
+    color:  #cd5ff8;;
     background-size: 100% .1em;
     background-position: left bottom;
     cursor: pointer;

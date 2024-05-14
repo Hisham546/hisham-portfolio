@@ -11,7 +11,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-import About from "./about/about";
+import About from "../../presentation/about/about";
 
 function NavBar() {
   const [menu, setMenu] = useState("home")

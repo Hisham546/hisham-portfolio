@@ -1,8 +1,8 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-
+import AboutCard from "./AboutCard";
+import './about.css'
 function About() {
  return(
 
@@ -14,14 +14,15 @@ function About() {
           md={7}
           style={{
             justifyContent: "center",
-            paddingTop: "30px",
-            paddingBottom: "50px",
+            paddingTop: "5px",
+            paddingBottom: "30px",
+        
           }}
         >
-          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-            Know Who <strong className="purple">I'M</strong>
+          <h1 style={{ fontSize: "3.1em",color:'white' }}>
+          Little about me 
           </h1>
-          {/* <Aboutcard /> */}
+          <AboutCard/>
         </Col>
         <Col
           md={5}

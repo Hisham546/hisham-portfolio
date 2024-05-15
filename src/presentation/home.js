@@ -5,6 +5,7 @@ import image from '../components/assets/images/raybilcliff.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "../components/data/Type";
+
 export function Home() {
 
 
@@ -27,7 +28,7 @@ export function Home() {
                                 <strong className="main-name"> MUHAMMED HISHAM</strong>
                             </h1>
 
-                            <div style={{ padding: 50, textAlign: "center" }}>
+                            <div style={{ padding: 50, textAlign: "center",paddingLeft:350 }}>
                                 <Type />
                             </div>
                         </Col>

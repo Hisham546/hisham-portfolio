@@ -19,7 +19,7 @@ function About() {
         
           }}
         >
-          <h1 style={{ fontSize: "3.1em",color:'white' }}>
+          <h1 style={{ fontSize: "3.1em",color:' #cd5ff8' }}>
           Little about me 
           </h1>
           <AboutCard/>

@@ -5,13 +5,14 @@ import image from '../components/assets/images/raybilcliff.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "../components/data/Type";
-
+import Particle from "../components/data/Particle";
 export function Home() {
 
 
     return (
         <section>
             <Container fluid className="home-section" id="home">
+                {/* <Particle/> */}
 
                 <Container className="home-content">
                     <Row>

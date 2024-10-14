@@ -82,6 +82,7 @@ html {
     text-decoration: none;
     background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
     transition: 1s background-size;
+    
 }
 
 .topHeadings:hover {

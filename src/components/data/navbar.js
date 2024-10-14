@@ -19,10 +19,14 @@ function NavBar() {
     <div className='navbar'>
 
       <ul className='navbar-menu'>
-        <li className="topHeadings"><Link className="link" to="/">Home</Link></li>
-        <li className="topHeadings"><Link className="link" to= "/about">About me</Link></li>
-        <li className="topHeadings"><Link className="link" to="/">Project</Link></li>
-        <li className="topHeadings"><Link className="link" to= "/about">Contact</Link></li>
+        <li className="topHeadings"><Link className="link" to="/"
+          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Home</Link></li>
+        <li className="topHeadings"><Link className="link" to="/about"
+          style={{ fontFamily: "unset", fontSize: '1.4em', }}>About me</Link></li>
+        <li className="topHeadings"><Link className="link" to="/"
+          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Project</Link></li>
+        <li className="topHeadings"><Link className="link" to="/about"
+          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Contact</Link></li>
       </ul>
 
 

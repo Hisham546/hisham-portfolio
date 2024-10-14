@@ -7,34 +7,36 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify",color:'white',fontFamily:"revert-layer",fontSize: '1.2em' }}>
+          <p style={{
+            textAlign: "justify", color: 'white', fontFamily: "unset", fontSize: '1.5em', lineHeight: '1.5',
+            margin: '10px 0'
+          }}>
             Hi there, I am <span className="purple">Hisham </span>
             from <span className="purple"> Kerala, India.</span>
+            <br /> <br />
+            I am a passionate mobile app developer with 3 years of experience, specializing in React Native
             <br />
-            an Application Developer
+            Over the years, I’ve built dynamic and user-friendly mobile applications that focus on both performance and design<br />
+
+
             <br />
-            I come from a non-IT background but made a career switch to IT.<br />
-            I've had a curiosity for technology since my teenage years, always dive into tech-related topics
-           
+            In addition to React Native, I am proficient in Kotlin and Jetpack Compose
             <br />
-            my particular interest lies in Application development. Following that, I started my career as a App developer.
-            <br/>
-            After gaining some experience, I also began working on iOS app development using React Native.
-            <br/>
-            I have hands-on experience in developing and publishing Android and iOS apps on both the Play Store and the App Store, as well as maintaining them.
+            I’m constantly expanding my skills and love exploring new technologies to deliver innovative solutions.
             <br />
+
             <br />
-            Apart from coding, some other activities that I love to do!
+            <span className="purple"> Apart from coding, some other activities that I love to do!</span>
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight style={{color:'white'}} /> Playing Games
+              <ImPointRight style={{ color: 'white' }} /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight style={{color:'white'}} /> Writing Tech Blogs
+              <ImPointRight style={{ color: 'white' }} /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight  style={{color:'white'}}/> Travelling
+              <ImPointRight style={{ color: 'white' }} /> Travelling
             </li>
           </ul>
 

@@ -10,35 +10,48 @@ import {
   Navigate
 } from "react-router-dom";
 import About from "./presentation/about/about";
-
-import ScrollToTop from "./components/data/ScrollToTop";
+import { Project } from "./presentation/project/project";
+import { Contact } from "./presentation/contact";
 
 function App() {
 
-  const [load, upadateLoad] = useState(true);
+  // const [load, upadateLoad] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      upadateLoad(false);
-    }, 1200);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     upadateLoad(false);
+  //   }, 1200);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
 
 
+  // return (
+  //   <Router>
+  //     <div className="App" >
+  //       <NavBar />
+  //       {/* <ScrollToTop /> */}
+  //       <Routes>
+  //         <Route path="/" element={<Home />} />
+  //         <Route path="/about" element={<About />} />
+  //         <Route path="/project" element={<Project />} />
+
+  //       </Routes>
+  //     </div>
+  //   </Router>
+
+  // );
   return (
-    <Router>
-      <div className="App" >
-        <NavBar />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
 
-        </Routes>
-      </div>
-    </Router>
+    <div  >
+      <NavBar />
+      <Home />
+      <About />
+      <Project />
+      <Contact/>
+    </div>
+
 
   );
 }

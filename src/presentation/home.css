@@ -97,18 +97,20 @@ html {
   position: relative;
   z-index: -1;
   height: 100vh;
+  width: 100vw;
   background-position: top center;
-  background-color: black;
+
   background-repeat: no-repeat;
 
   justify-content: center;
+  /* align-items: center; */
   display: flex;
 }
 
 
 
 .home-content {
-  padding: 7rem 0 2rem !important;
+  padding: 6rem 0 2rem !important;
   color: whitesmoke;
   /* // text-align: left; */
 
@@ -116,13 +118,14 @@ html {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 50px !important;
 
 }
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 220px !important;
+ 
+  color:black
 
 }
 
@@ -176,10 +179,14 @@ html {
 
 .heading-name {
   font-size: 3.3em !important;
-  padding-left: 500px !important;
+
+  color:black
 }
 
 .main-name {
-  color: #cd5ff8;
+  color:black ;
 }
+/* 
+'#3a86eb' */
 
+/* rgb(58, 134, 235) */

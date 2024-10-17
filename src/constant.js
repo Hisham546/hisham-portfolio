@@ -1,6 +1,8 @@
 
 import chatscreen from "./components/assets/images/chatpulse/chatscreen.jpg";
 import dashboard from "./components/assets/images/chatpulse/dashboard.jpg";
+import money_dashboard from "./components/assets/images/money-management/money-dashboard.png";
+import money_record from "./components/assets/images/money-management/money-record.png";
 export const techStack = [
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
@@ -61,6 +63,16 @@ export const personalProjects = [
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
     description: 'management app developed using jetpack compose and room db',
+    images: [
+      {
+        url: money_dashboard
+
+      },
+      {
+        url: money_record
+
+      }
+    ],
     techLinks: [
       {
         name: 'Kotlin',
@@ -69,6 +81,7 @@ export const personalProjects = [
 
 
     ],
+    github: "https://github.com/Hisham546/Money-Management"
 
   },
 

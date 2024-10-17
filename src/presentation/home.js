@@ -36,7 +36,9 @@ export function Home() {
                             </motion.span>
                         </h1>
 
-                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                        <h1 
+                        className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
+                        >
                             I am
                             <strong className="main-name"> MUHAMMED HISHAM</strong>
                         </h1>

@@ -1,0 +1,30 @@
+.contact-section {
+
+
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+    background-color: black;
+    /* align-items: center; */
+
+}
+
+.c1 {
+    height: 50vh;
+    width: 50vw;  
+
+
+}
+
+.c2 {
+    height: 50vh;
+    width: 50vw;   
+
+}
+.contact{
+    color: white;
+    font-size: 1.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

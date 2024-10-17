@@ -1,7 +1,7 @@
 .project-section {
 
-
-    height: 100vh;
+/* 
+    height: 100vh; */
     width: 100vw;
 
     background-color: #f3f4f6;
@@ -9,15 +9,24 @@
 
 }
 
+.headerTextParent {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .projectCardParent {
     flex-direction: row;
     display: flex;
     width: 100vw;
     padding: 2em;
     justify-content: space-around;
-
     flex-wrap: wrap;
     align-items: flex-start;
+
 }
 
 @keyframes breathing {
@@ -50,6 +59,7 @@
 .projectCard:hover {
     animation: breathing 1.5s infinite;
 }
+
 .child1 {
     height: 40vh;
     width: 25vw;
@@ -57,10 +67,11 @@
     display: flex;
     padding: 12px;
     gap: 5px;
-  
-   
+
+
 
 }
+
 .child2 {
     height: 20vh;
     width: 25vw;
@@ -78,10 +89,10 @@
     height: 10vh;
     width: 25vw;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 10px;
     display: flex;
- 
+
 
 }
 
@@ -89,11 +100,11 @@
     height: 10vh;
     width: 25vw;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 10px;
     display: flex;
-  
- 
+
+
 
 }
 
@@ -101,6 +112,12 @@
     width: 35px;
     height: 35px;
 }
+
+.project-Icon {
+    width: 30px;
+    height: 30px;
+}
+
 .image-size {
     width: auto;
     height: auto;

@@ -3,7 +3,11 @@ import { motion } from "framer-motion";
 import { Card } from "react-bootstrap";
 import './project.css';
 import { personalProjects } from "../../constant";
-
+import {
+    AiFillGithub,
+    AiOutlineTwitter,
+    AiFillInstagram,
+} from "react-icons/ai";
 export function Project() {
 
 
@@ -12,15 +16,15 @@ export function Project() {
         <div id="projects"
             className="project-section">
             <div>
+                <div className="headerTextParent">
+                    <h2
+                        className="text-5xl font-bold px-4 md:px-0 text-center"
+                    // style={{ fontSize: "3.1em", color: '#3a86eb' }}
 
-                <h2
-                    className="text-5xl font-bold px-4 md:px-0 text-center"
-                // style={{ fontSize: "3.1em", color: '#3a86eb' }}
-
-                >
-                    My Projects
-                </h2>
-
+                    >
+                        My Projects
+                    </h2>
+                </div>
                 <div className="projectCardParent">
 
                     {personalProjects.map((data) => (
@@ -46,14 +50,22 @@ export function Project() {
                                     <div key={item.name}>
                                         <img alt="" src={item?.url} className="icon-size" />
 
-
                                     </div>
 
                                 ))}
 
                             </div>
                             <div className="child4">
-                            <h4 className="text-xl font-bold mt-4">github</h4>
+                                <a
+                                    href={data?.github}
+                                    target="_blank"
+                                    rel="noreferrer"
+
+                                >
+                                    <AiFillGithub
+                                        className="project-Icon" />
+                                </a>
+                               
                             </div>
 
 

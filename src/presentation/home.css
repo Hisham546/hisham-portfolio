@@ -110,7 +110,7 @@ html {
 
 
 .home-content {
-  padding: 6rem 0 2rem !important;
+  padding: 16rem 0 2rem !important;
   color: whitesmoke;
   /* // text-align: left; */
 
@@ -123,9 +123,9 @@ html {
 }
 
 .heading {
-  font-size: 2.4em !important;
  
-  color:black
+ 
+  color:#3a86eb
 
 }
 

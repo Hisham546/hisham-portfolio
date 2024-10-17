@@ -1,3 +1,6 @@
+
+import chatscreen from "./components/assets/images/chatpulse/chatscreen.jpg";
+import dashboard from "./components/assets/images/chatpulse/dashboard.jpg";
 export const techStack = [
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
@@ -15,5 +18,58 @@ export const techStack = [
   { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
   { name: "Firebase", link: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
 
+
+]
+
+export const personalProjects = [
+  {
+    name: 'ChatPulse',
+    stack: 'React Native',
+    description: 'A chatting app developed in react native and node js',
+    images: [
+      {
+        url: dashboard
+
+      },
+      {
+        url: chatscreen
+
+      }
+    ],
+    techLinks: [
+      {
+        name: 'React Native',
+        url: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
+      },
+      {
+        name: 'TypeScript',
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: 'MongoDB',
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
+      },
+      {
+        name: 'Express',
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+      }
+    ],
+    github: "https://github.com/Hisham546/ChatPulse"
+
+  },
+  {
+    name: 'Money Management',
+    stack: 'Kotlin,Jetpack compose',
+    description: 'management app developed using jetpack compose and room db',
+    techLinks: [
+      {
+        name: 'Kotlin',
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original-wordmark.svg",
+      },
+
+
+    ],
+
+  },
 
 ]

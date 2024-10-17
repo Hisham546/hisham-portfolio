@@ -20,7 +20,8 @@ function Type() {
       cursor={false}
       deletionSpeed={{ type: "keyStrokeDelayInMs", value: 60 }}
       omitDeletionAnimation={false}
-      style={{ fontSize: '3em', display: 'inline-block', fontFamily:"inherit",color:'#3a86eb',fontWeight:'bold'  }}
+   
+       style={{ fontSize: '3em', display: 'inline-block', fontFamily:"inherit",color:'#3a86eb',fontWeight:'bold'  }}
       repeat={Infinity}
     />
   );

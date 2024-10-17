@@ -18,7 +18,7 @@ function NavBar() {
   const links = [
     {
       name: "Home",
-      route: "home",  
+      route: "home",
     },
     {
       name: "About me",
@@ -26,11 +26,11 @@ function NavBar() {
     },
     {
       name: "Projects",
-      route: "projects", 
+      route: "projects",
     },
     {
       name: "Contact",
-      route: "contact", 
+      route: "contact",
     },
   ];
 
@@ -48,15 +48,7 @@ function NavBar() {
         className='navbar-menu'
 
       >
-        {/* <li className="topHeadings"><Link className="link" to="/"
-          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Home</Link></li>
 
-        <li className="topHeadings"><Link className="link" to="/about"
-          style={{ fontFamily: "unset", fontSize: '1.4em', }}>About me</Link></li>
-        <li className="topHeadings"><Link className="link" to="/project"
-          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Project</Link></li>
-        <li className="topHeadings"><Link className="link" to="/about"
-          style={{ fontFamily: "unset", fontSize: '1.4em', }}>Contact</Link></li> */}
 
 
 

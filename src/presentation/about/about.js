@@ -13,17 +13,25 @@ function About() {
 
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
 
-        <div>
-          <motion.div>
-            <h1 style={{ fontSize: "3.1em", color: '#3a86eb' }}>
+      
+        
+            <h2
+            className="text-5xl font-bold px-4 md:px-0 text-center"
+            // style={{ fontSize: "3.1em", color: 'black' }}
+            >
               Little about me
-            </h1>
-            <AboutCard />
-          </motion.div>
+            </h2>
+            <div>
 
-          <h1 className="project-heading">
+            <AboutCard />
+
+            </div>
+           
+          
+
+          <h4 className="text-1xl font-bold px-4 md:px-0 mt-2">
             <strong className="skillHeading">   Technologies and tools I use </strong>
-          </h1>
+          </h4>
           <motion.div
 
             className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
@@ -49,8 +57,11 @@ function About() {
               </motion.div>
             ))}
           </motion.div>
-        </div>
-        <span className="skillHeading"> Apart from coding, some other activities that I love to do!</span>
+      
+        {/* <h4 className="text-1xl font-bold px-4 md:px-0 mt-2"
+        > 
+       <strong className="skillHeading">   Apart from coding, some other activities that I love to do!</strong>
+        </h4>
         <ul>
             <li className="about-activity">
               <ImPointRight style={{ color: 'black' }} /> Playing Games
@@ -61,7 +72,7 @@ function About() {
             <li className="about-activity">
               <ImPointRight style={{ color: 'black' }} /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
       </div>
     </div>

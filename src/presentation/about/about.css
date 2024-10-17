@@ -2,18 +2,14 @@
     list-style: none !important;
     text-align: left !important;
     padding-left: 1px !important;
-    color: white;
+    color: black;
     font-family:inherit;
     font-size: 1.2em;
     
 }
 
 .about-section {
-    position: relative !important;
-    padding-top: 100px !important;
-    padding-bottom: 30px !important;
-    justify-content: center;
-
+ 
     background-color: white
 }
 .quote-card-view {

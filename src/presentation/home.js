@@ -1,12 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import './home.css'
-import image from '../components/assets/images/raybilcliff.jpg'
+
 import { TypeAnimation } from 'react-type-animation';
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "../components/data/Type";
 import Particle from "../components/data/Particle";
-import cloud from "../components/assets/images/cloudBg.png"
+import cloud from "../components/assets/images/cloudBg.png";
+import { motion } from "framer-motion";
 export function Home() {
 
 
@@ -19,23 +20,33 @@ export function Home() {
 
                 <Container className="home-content">
                     <Row>
-                        <Col md={7} className="home-header">
-                            <h1 style={{}} className="heading">
+
+                        <h1
+                            // className="heading"
+                            className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
+                        >
+                            <motion.span
+                                className={" heading"}
+                            >
                                 Hi There!{" "}
-                                <span className="wave" role="img" aria-labelledby="wave">
+                                <span className="wave" role="img"
+                                    aria-labelledby="wave">
                                     👋🏻
                                 </span>
-                            </h1>
+                            </motion.span>
+                        </h1>
 
-                            <h1 className="heading-name">
-                                I'M
-                                <strong className="main-name"> MUHAMMED HISHAM</strong>
-                            </h1>
+                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            I am
+                            <strong className="main-name"> MUHAMMED HISHAM</strong>
+                        </h1>
 
-                            <div style={{ padding: 50, textAlign: "center", paddingLeft: 150 }}>
+                        <div style={{ padding: 50, textAlign: "center"  }}>
+                          
                                 <Type />
-                            </div>
-                        </Col>
+                           
+                        </div>
+
 
 
                     </Row>

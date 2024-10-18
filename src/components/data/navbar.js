@@ -13,6 +13,8 @@ import {
 } from "react-icons/ai";
 import About from "../../presentation/about/about";
 import { Link } from "react-scroll";
+import UseAnimations from "react-useanimations";
+import activity from 'react-useanimations/lib/activity';
 function NavBar() {
   const [menu, setMenu] = useState("home")
   const links = [
@@ -43,7 +45,9 @@ function NavBar() {
   return (
     <div
       className='navbar'>
-
+      <div className="decorIcon">
+        <UseAnimations animation={activity} size={36} />
+      </div>
       <ul
         className='navbar-menu'
 

@@ -3,7 +3,7 @@
     height: 9vh;
     padding: 20px 0px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items :center;
     background-color: white;
     position: fixed;
@@ -38,6 +38,7 @@ html {
     color: #49557e;
     font-size: 18px;
     margin-right: 50px;
+ 
   
 
 }
@@ -109,4 +110,13 @@ html {
     /* Ensures Link inherits the color property */
     text-decoration: inherit;
     /* Ensures Link inherits the text-decoration property */
+}
+.decorIcon{
+ 
+    width: 10vw;
+    height: 9vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }

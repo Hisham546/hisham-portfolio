@@ -3,6 +3,8 @@ import chatscreen from "./components/assets/images/chatpulse/chatscreen.jpg";
 import dashboard from "./components/assets/images/chatpulse/dashboard.jpg";
 import money_dashboard from "./components/assets/images/money-management/money-dashboard.png";
 import money_record from "./components/assets/images/money-management/money-record.png";
+import wall_home from   "./components/assets/images/wallpaper/home.png";
+import wall_favourites from   "./components/assets/images/wallpaper/favourites.png";
 export const techStack = [
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
@@ -10,7 +12,7 @@ export const techStack = [
   { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
   { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
  
-  { name: "Jetpack Compose", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original-wordmark.svg" },
+  { name: "Jetpack Compose", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg" },
   { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" },
   { name: "Express", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" },
   { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" },
@@ -61,6 +63,36 @@ export const personalProjects = [
     github: "https://github.com/Hisham546/ChatPulse"
 
   },
+
+  {
+    name: 'Wall X ',
+    stack: 'React Native',
+    description: 'A simple wallpaper app developed using pexel api',
+    images: [
+      {
+        url: wall_home
+
+      },
+      {
+        url: wall_favourites
+
+      }
+    ],
+    techLinks: [
+      {
+        name: 'React Native',
+        url: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
+      },
+      {
+        name: 'TypeScript',
+        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      },
+
+
+    ],
+    github: "https://github.com/Hisham546/WALLX"
+
+  },
   {
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
@@ -78,7 +110,7 @@ export const personalProjects = [
     techLinks: [
       {
         name: 'Kotlin',
-        url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jetpackcompose/jetpackcompose-original-wordmark.svg",
+        url:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
       },
 
 

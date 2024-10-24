@@ -41,7 +41,7 @@ export function Project() {
                             </div>
                             <div className="child2">
                                 <h4 className="text-xl font-bold mt-4">{data.name}</h4>
-                                <p className="text-x2 text-justify text-gray-500 mt-4 p-5">{data.description}</p>
+                                <p className="descriptionStyle">{data.description}</p>
                             </div>
                             <div className="child3">
                                 {data?.techLinks?.map((item) => (
@@ -62,10 +62,12 @@ export function Project() {
                                     rel="noreferrer"
 
                                 >
+                                    <p className="source-code">source code</p>
+
                                     <AiFillGithub
                                         className="project-Icon" />
                                 </a>
-                               
+
                             </div>
 
 

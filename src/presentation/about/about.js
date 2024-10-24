@@ -53,7 +53,7 @@ function About() {
                 className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
               >
                 <img alt="" src={el.link} className="icon-size" />
-                <h4 className="text-md ml-4">{el.name}</h4>
+                <h4 className="techstack-name">{el.name}</h4>
               </motion.div>
             ))}
           </motion.div>

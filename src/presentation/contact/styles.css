@@ -58,12 +58,12 @@
 .contact {
     color: white;
     font-size: 1.5em;
-    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .mobileappDeveloper{
     font-size: medium;
     text-decoration: none;
-    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 .contact-Icon{

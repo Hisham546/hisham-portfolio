@@ -29,7 +29,7 @@ export function Contact() {
 
             </div>
             <div className="c2">
-                <h4 className="contact">Contact</h4>
+                <h4 className="contact">Social</h4>
                 <div className="socialParent">
 
                     <a

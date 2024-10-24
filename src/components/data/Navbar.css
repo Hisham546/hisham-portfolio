@@ -92,7 +92,8 @@ html {
     color: black;
     font-size: medium;
     text-decoration: none;
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
     transition: 1s background-size;
 

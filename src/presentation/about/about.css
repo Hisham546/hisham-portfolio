@@ -39,6 +39,12 @@
     font-size: 1.2em;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  @media (max-width: 768px) {
+    .paragraph {
+        font-size: 1em;
+    }
+}
+
 .techstack-name{
   margin-left: 8%;
   color:#181510;

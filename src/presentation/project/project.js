@@ -18,16 +18,15 @@ export function Project() {
             <div>
                 <div className="headerTextParent">
                     <h2
-                        className="text-5xl font-bold px-4 md:px-0 text-center"
-                    // style={{ fontSize: "3.1em", color: '#3a86eb' }}
+                       className="text-4xl md:text-5xl font-bold px-4 md:px-0 text-center"
+                   
 
                     >
                         Personal Projects
                     </h2>
                     <h2
-                        className="text-3xl  px-4 md:px-0 text-center"
-                    // style={{ fontSize: "3.1em", color: '#3a86eb' }}
-
+                      className="text-1xl md:text-3xl px-4 md:px-0 text-center"
+                
                     >
                        Some of the projects I'm currently working/completed
                     </h2>
@@ -46,9 +45,9 @@ export function Project() {
                                 ))}
 
                             </div>
-                            <div className="child2">
+                            <div className="child2  ">
                                 <h4 className="text-xl font-bold mt-4">{data.name}</h4>
-                                <p className="descriptionStyle">{data.description}</p>
+                                <p className="descriptionStyle ">{data.description}</p>
                             </div>
                             <div className="child3">
                                 {data?.techLinks?.map((item) => (

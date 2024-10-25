@@ -20,33 +20,28 @@ export function Home() {
 
                 <Container className="home-content">
                     <Row>
-
+                        <div className="flex justify-center sm:justify-start">
+                            <h1
+                                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight font-extrabold text-gray-900 text-center sm:text-left">
+                                <motion.span className={"heading"}>
+                                    Hi There!{" "}
+                                    <span className="wave" role="img" aria-labelledby="wave">
+                                        👋🏻
+                                    </span>
+                                </motion.span>
+                            </h1>
+                        </div>
                         <h1
-                            // className="heading"
-                            className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
-                        >
-                            <motion.span
-                                className={" heading"}
-                            >
-                                Hi There!{" "}
-                                <span className="wave" role="img"
-                                    aria-labelledby="wave">
-                                    👋🏻
-                                </span>
-                            </motion.span>
-                        </h1>
+                            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight text-center">
 
-                        <h1 
-                        className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
-                        >
                             I am
-                            <strong className="main-name"> MUHAMMED HISHAM</strong>
+                            <strong className="main-name ml-2"> MUHAMMED HISHAM</strong>
                         </h1>
 
-                        <div style={{ padding: 50, textAlign: "center"  }}>
-                          
-                                <Type />
-                           
+                        <div style={{ padding: 50, textAlign: "center" }}>
+
+                            <Type />
+
                         </div>
 
 

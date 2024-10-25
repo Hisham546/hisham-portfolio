@@ -33,7 +33,7 @@ export const personalProjects = [
     name: 'ChatPulse',
     stack: 'React Native',
     description: `Developed a chatting app where user can create account and send messages to other users in realtime.
-    user active status online will also updates in realtime.app was developed using react native.for 
+    user online status will also updates in realtime.app was developed using react native.for 
     backend node and express is used.socket.io is used for realtime updates `,
     images: [
       {
@@ -100,7 +100,7 @@ export const personalProjects = [
   {
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
-    description: `made a finance management app in jetpack compose and roomDB.user can add their income with category.also update their expenses as well`,
+    description: `Made a finance management app in jetpack compose and roomDB.user can add their income with category.also update their expenses as well`,
     images: [
       {
         url: money_dashboard

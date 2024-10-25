@@ -2,7 +2,7 @@
 
     /* 
     height: 100vh; */
-    width: 100vw;
+    width: 100%;
 
     background-color: #f3f4f6;
     /* align-items: center; */
@@ -11,24 +11,26 @@
 
 .headerTextParent {
     height: 20vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 6px;
 
+
 }
 
 
 .projectCardParent {
-    flex-direction: row;
     display: flex;
-    width: 100vw;
-    padding: 2em;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    align-items: center;
+    padding: 1em; 
+    width: 100%;
+
 
 }
 
@@ -50,36 +52,49 @@
 }
 
 .projectCard {
-    height: 85vh;
-    width: 25vw;
+    height: auto; 
+    width: 100%; /* Full width on mobile */
+    max-width: 450px; /* Limit maximum width for large screens */
     background-color: white;
     flex-direction: column;
     margin: 1em;
-    border-radius: 55px;
-   
+    border-radius: 20px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+@media (max-width: 768px) {
+    .projectCard {
+        margin: 0.5em auto; /* Centers with smaller margin */
+    }
 }
 
 .projectCard:hover {
     animation: floating 1.2s ease-in-out infinite;
 }
+
 @keyframes floating {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-5px);
     }
 }
 
 .child1 {
-    height: 40vh;
-    width: 25vw;
+    height: auto;
+    width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     padding: 12px;
     gap: 5px;
+    border-radius: 55px;
+
 
 
 
@@ -87,13 +102,12 @@
 }
 
 .child2 {
-    height: 25vh;
-    width: 25vw;
+    height: 30vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-    
+
 
 }
 
@@ -101,24 +115,24 @@
 
 .child3 {
     height: 10vh;
-    width: 25vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 10px;
     display: flex;
+
 
 
 }
 
 .child4 {
     height: 10vh;
-    width: 25vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     gap: 10px;
     display: flex;
-
-   
+  
 
 
 
@@ -137,7 +151,8 @@
 
 .image-size {
     width: auto;
-    height: 250px;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px;
     object-fit: cover;
 }
 
@@ -145,19 +160,32 @@
     color: #181510;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
+
     padding: 2%;
 }
-.source-code{
-    color:#83b6e3;
+@media (max-width: 768px) {
+    .descriptionStyle {
+        font-size: .9em;
+    }
+}
+
+.source-code {
+    color: #83b6e3;
     text-decoration: underline;
 }
-.techStackName{
+
+.techStackName {
     color: #181510;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .8em;
-   
+
 }
-.techStackWrapper{
+@media (max-width: 768px) {
+    .techStackName {
+        font-size: .5em; /* Reduced size for small screens */
+    }
+}
+.techStackWrapper {
     background-color: #f9fafc;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -166,4 +194,11 @@
     border-radius: 8%;
     width: 97px;
     height: 40px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .techStackWrapper {
+        width: 70px; /* Reduced width for small screens */
+        height: 30px; /* Reduced height for small screens */
+    }
 }

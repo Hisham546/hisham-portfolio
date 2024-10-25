@@ -29,7 +29,7 @@ export function Contact() {
 
             </div>
             <div className="c3">
-                <div className="nameParent">
+                <div className="homeParent">
                     <h4 className="contact">Home Town </h4>
                     <div className="flex items-center space-x-2 mt-2">
                         <AiFillEnvironment className="contact-Icon text-2xl" />

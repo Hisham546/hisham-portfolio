@@ -22,7 +22,14 @@ export function Project() {
                     // style={{ fontSize: "3.1em", color: '#3a86eb' }}
 
                     >
-                        My Projects
+                        Personal Projects
+                    </h2>
+                    <h2
+                        className="text-3xl  px-4 md:px-0 text-center"
+                    // style={{ fontSize: "3.1em", color: '#3a86eb' }}
+
+                    >
+                       Some of the projects I'm currently working/completed
                     </h2>
                 </div>
                 <div className="projectCardParent">
@@ -47,8 +54,12 @@ export function Project() {
                                 {data?.techLinks?.map((item) => (
 
 
-                                    <div key={item.name}>
-                                        <img alt="" src={item?.url} className="icon-size" />
+                                    <div
+                                        className="techStackWrapper"
+                                        // className="py-2 px-4 bg-gray-50 md:m-4 mx-2 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-20"
+                                        key={item.name}>
+                                        <p className="techStackName">{item?.name}</p>
+                                        {/* <img alt="" src={item?.url} className="icon-size" /> */}
 
                                     </div>
 
@@ -60,13 +71,16 @@ export function Project() {
                                     href={data?.github}
                                     target="_blank"
                                     rel="noreferrer"
+                                className="flex flex-col items-center py-2 px-2 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
 
                                 >
-                                    <p className="source-code">source code</p>
+
 
                                     <AiFillGithub
-                                        className="project-Icon" />
+                                        className="project-Icon text-3xl" />
+                                  
                                 </a>
+                               
 
                             </div>
 

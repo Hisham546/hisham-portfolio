@@ -11,6 +11,7 @@ export const techStack = [
   { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "TypeScript", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" },
   { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+  { name: "Jest", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" },
 
   { name: "Jetpack Compose", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg" },
   { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" },
@@ -69,7 +70,8 @@ export const personalProjects = [
   {
     name: 'Wall X ',
     stack: 'React Native',
-    description: `Made a wallpaper app using react native .for getting the wallpapers pexel api is used`,
+    description: `Made a wallpaper app using react native .user can download,see wallpaper details and can also save it as favourite.wallpapers
+    are pulling from pexels api`,
     images: [
       {
         url: wall_home
@@ -86,7 +88,7 @@ export const personalProjects = [
         url: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png",
       },
       {
-        name: 'TypeScript',
+        name: 'JavaScript',
         url: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
       },
 
@@ -111,10 +113,13 @@ export const personalProjects = [
     ],
     techLinks: [
       {
-        name: 'Kotlin',
+        name: 'Jetpack Compose',
         url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
       },
-
+      {
+        name: 'RoomDB',
+        url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetpackcompose/jetpackcompose-original.svg",
+      },
 
     ],
     github: "https://github.com/Hisham546/Money-Management"

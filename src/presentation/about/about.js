@@ -50,7 +50,8 @@ function About() {
                   },
                   hidden: { opacity: 1, y: 80 },
                 }}
-                className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+              className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40 shadow-lg"
+              
               >
                 <img alt="" src={el.link} className="icon-size" />
                 <h4 className="techstack-name">{el.name}</h4>

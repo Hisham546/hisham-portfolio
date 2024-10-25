@@ -18,17 +18,17 @@ export function Project() {
             <div>
                 <div className="headerTextParent">
                     <h2
-                       className="text-4xl md:text-5xl font-bold px-4 md:px-0 text-center"
-                   
+                        className="text-4xl md:text-5xl font-bold px-4 md:px-0 text-center"
+
 
                     >
                         Personal Projects
                     </h2>
                     <h2
-                      className="text-1xl md:text-3xl px-4 md:px-0 text-center"
-                
+                        className="text-1xl md:text-3xl px-4 md:px-0 text-center"
+
                     >
-                       Some of the projects I'm currently working/completed
+                        Some of the projects I'm currently working/completed
                     </h2>
                 </div>
                 <div className="projectCardParent">
@@ -70,16 +70,16 @@ export function Project() {
                                     href={data?.github}
                                     target="_blank"
                                     rel="noreferrer"
-                                className="flex flex-col items-center py-2 px-2 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                                    className="flex flex-col items-center py-2 px-2 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
 
                                 >
 
 
                                     <AiFillGithub
                                         className="project-Icon text-3xl" />
-                                  
+
                                 </a>
-                               
+
 
                             </div>
 

@@ -204,3 +204,8 @@
         height: 30px; /* Reduced height for small screens */
     }
 }
+.personalProjects{
+    color: rgb(58, 134, 235) ;
+    font-family: inherit;
+    font-size: 1.5em; 
+}

@@ -17,15 +17,11 @@ export function Project() {
             className="project-section">
             <div>
                 <div className="headerTextParent">
-                    <h2
-                        className="text-4xl md:text-5xl font-bold px-4 md:px-0 text-center"
-
-
-                    >
-                        Personal Projects
+                    <h2 className="text-lg sm:text-xl md:text-2xl font-bold px-4 md:px-0 mt-2 text-center">
+                        <strong className="personalProjects">Personal Projects   </strong>
                     </h2>
                     <h2
-                        className="text-1xl md:text-3xl px-4 md:px-0 text-center"
+                        className="text-1xl md:text-2xl px-4 md:px-0 text-center"
 
                     >
                         Some of the projects I'm currently working/completed

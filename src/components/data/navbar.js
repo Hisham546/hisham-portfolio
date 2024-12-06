@@ -46,7 +46,7 @@ function NavBar() {
     <div
       className='navbar'>
       <div className="decorIcon">
-        <UseAnimations animation={activity} size={36} />
+        {/* <UseAnimations animation={activity} size={36} /> */}
       </div>
       <ul
         className='navbar-menu'

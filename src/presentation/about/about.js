@@ -12,11 +12,15 @@ function About() {
     <div className="about-section" id="about">
 
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold px-4 md:px-0 mt-2 text-center">
+          <strong
+            // className="text-5xl font-bold px-4 md:px-0 text-center" 
+            className="littleAboutMe"
 
-        <h2
-          className="text-5xl font-bold px-4 md:px-0 text-center"  >
- 
-          Little about me
+          >
+
+            Little about me
+          </strong>
         </h2>
         <div>
 
@@ -24,9 +28,9 @@ function About() {
 
         </div>
 
-        <h4 className="text-lg sm:text-xl md:text-2xl font-bold px-4 md:px-0 mt-2 text-center">
+        <h2 className="text-lg sm:text-xl md:text-2xl font-bold px-4 md:px-0 mt-2 text-center">
           <strong className="skillHeading"> Technologies and tools I use </strong>
-        </h4>
+        </h2>
         <motion.div
 
           className="flex flex-wrap mt-8 flex flex-wrap justify-between ">

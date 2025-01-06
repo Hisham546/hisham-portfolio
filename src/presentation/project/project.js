@@ -24,7 +24,7 @@ export function Project() {
                         className="text-1xl md:text-2xl px-4 md:px-0 text-center"
 
                     >
-                        Some of the projects I'm currently working/completed
+                         I'm also working personal projects to expand my skill
                     </h2>
                 </div>
                 <div className="projectCardParent">
@@ -44,7 +44,22 @@ export function Project() {
                             <div className="child2  ">
                                 <h4 className="text-xl font-bold mt-4">{data.name}</h4>
                                 <p className="descriptionStyle ">{data.description}</p>
+                                {data?.Features?.map((item) => (
+
+
+                                    <div
+                                        className="features"
+                                        // className="py-2 px-4 bg-gray-50 md:m-4 mx-2 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-20"
+                                        key={item.name}>
+                                        <p className="featureText">{item?.point}</p>
+                                        {/* <img alt="" src={item?.url} className="icon-size" /> */}
+
+                                    </div>
+                                ))}
+
+
                             </div>
+
                             <div className="child3">
                                 {data?.techLinks?.map((item) => (
 

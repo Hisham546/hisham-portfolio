@@ -1,6 +1,6 @@
 
-import chatscreen from "./components/assets/images/chatpulse/chatscreen.jpg";
-import dashboard from "./components/assets/images/chatpulse/dashboard.jpg";
+import chatscreen from "./components/assets/images/chatpulse/chatscreen.png";
+import dashboard from "./components/assets/images/chatpulse/dashboard.png";
 import money_dashboard from "./components/assets/images/money-management/money-dashboard.png";
 import money_record from "./components/assets/images/money-management/money-record.png";
 import wall_home from "./components/assets/images/wallpaper/home.png";
@@ -32,9 +32,15 @@ export const personalProjects = [
   {
     name: 'ChatPulse',
     stack: 'React Native',
-    description: `Developed a chatting app where user can create account and send messages to other users in realtime.
-    user online status will also updates in realtime.app was developed using react native.for 
-    backend node and express is used.socket.io is used for realtime updates `,
+    description: `A chatting application made in React Native.
+   `,
+    Features: [
+      { point: 'Real-time communication with users.' },
+      { point: 'Typing status indicators.' },
+      { point: 'Online status visibility.' },
+      { point: 'Easy access to chats.' },
+      { point: 'Users can add profile pictures and crop or rotate them.' },
+    ],
     images: [
       {
         url: dashboard

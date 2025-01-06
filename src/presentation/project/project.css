@@ -24,11 +24,11 @@
 
 .projectCardParent {
     display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap; 
-    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 1em; 
+    padding: 1em;
     width: 100%;
 
 
@@ -52,20 +52,24 @@
 }
 
 .projectCard {
-    height: auto; 
-    width: 100%; /* Full width on mobile */
-    max-width: 450px; /* Limit maximum width for large screens */
+    height: auto;
+    width: 100%;
+    /* Full width on mobile */
+    max-width: 450px;
+    /* Limit maximum width for large screens */
     background-color: white;
     flex-direction: column;
     margin: 1em;
-    border-radius: 20px; 
+    border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s; /* Smooth scaling on hover */
+    transition: transform 0.3s;
+    /* Smooth scaling on hover */
 }
 
 @media (max-width: 768px) {
     .projectCard {
-        margin: 0.5em auto; /* Centers with smaller margin */
+        margin: 0.5em auto;
+        /* Centers with smaller margin */
     }
 }
 
@@ -111,7 +115,32 @@
 
 }
 
+.features {
+    height: 30vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
+
+
+}
+
+.featureText {
+    color: #181510;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+
+
+
+}
+
+.featureText::before {
+    content: "•";
+    margin-right: 2%;
+    color: black;
+    font-size: 1.2em;
+}
 
 .child3 {
     height: 10vh;
@@ -132,7 +161,7 @@
     align-items: center;
     gap: 10px;
     display: flex;
-  
+
 
 
 
@@ -151,7 +180,8 @@
 
 .image-size {
     width: auto;
-    height: auto; /* Maintain aspect ratio */
+    height: auto;
+    /* Maintain aspect ratio */
     max-height: 200px;
     object-fit: cover;
 }
@@ -163,6 +193,7 @@
 
     padding: 2%;
 }
+
 @media (max-width: 768px) {
     .descriptionStyle {
         color: #181510;
@@ -182,11 +213,14 @@
     font-size: .8em;
 
 }
+
 @media (max-width: 768px) {
     .techStackName {
-        font-size: .5em; /* Reduced size for small screens */
+        font-size: .5em;
+        /* Reduced size for small screens */
     }
 }
+
 .techStackWrapper {
     background-color: #f9fafc;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
@@ -198,14 +232,18 @@
     height: 40px;
     text-align: center;
 }
+
 @media (max-width: 768px) {
     .techStackWrapper {
-        width: 70px; /* Reduced width for small screens */
-        height: 30px; /* Reduced height for small screens */
+        width: 70px;
+        /* Reduced width for small screens */
+        height: 30px;
+        /* Reduced height for small screens */
     }
 }
-.personalProjects{
-    color: rgb(58, 134, 235) ;
+
+.personalProjects {
+    color: rgb(58, 134, 235);
     font-family: inherit;
-    font-size: 1.5em; 
+    font-size: 1.5em;
 }

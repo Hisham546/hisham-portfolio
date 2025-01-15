@@ -76,8 +76,13 @@ export const personalProjects = [
   {
     name: 'Wall X ',
     stack: 'React Native',
-    description: `Made a wallpaper app using react native .user can download,see wallpaper details and can also save it as favourite.wallpapers
-    are pulling from pexels api`,
+    description: `Made a wallpaper app using react native .`,
+    Features: [
+      { point: 'Wallpapers are pulling from pexel api' },
+      { point: 'user can download,view the wallpaper ' },
+      { point: 'select favourite wallpaper option' },
+      { point: 'Dark mode option' },
+    ],
     images: [
       {
         url: wall_home
@@ -106,7 +111,14 @@ export const personalProjects = [
   {
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
-    description: `Made a finance management app in jetpack compose and roomDB.user can add their income with category.also update their expenses as well`,
+    description: `Made a finance management app in native android.`,
+    Features: [
+      { point: 'Using jetpack compose and Kotlin' },
+      { point: 'RoomDB for local storage' },
+      { point: 'user can add their income with category' },
+      { point: 'also update their expenses as well' },
+
+    ],
     images: [
       {
         url: money_dashboard

@@ -4,7 +4,8 @@
     height: 100vh; */
     width: 100%;
 
-    background-color: #f3f4f6;
+  background-color: #f3f4f6;
+
     /* align-items: center; */
 
 }
@@ -23,15 +24,30 @@
 
 
 .projectCardParent {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 1em;
     width: 100%;
 
 
+
+
+}
+.cardHolder{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.projectDetailsParent{
+    width: 60%;
+
+    justify-content: space-evenly;
+    
 }
 
 @keyframes breathing {
@@ -57,7 +73,7 @@
     /* Full width on mobile */
     max-width: 450px;
     /* Limit maximum width for large screens */
-    background-color: white;
+    background-color: green;
     flex-direction: column;
     margin: 1em;
     border-radius: 20px;
@@ -182,7 +198,7 @@
     width: auto;
     height: auto;
     /* Maintain aspect ratio */
-    max-height: 200px;
+    max-height: 400px;
     object-fit: cover;
 }
 

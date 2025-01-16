@@ -25,7 +25,7 @@ export function Project() {
                         className="text-1xl md:text-2xl px-4 md:px-0 text-center"
 
                     >
-                        I'm also working personal projects to expand my skill
+                        I'm also working on personal projects to expand my skill
                     </h2>
                 </div>
                 <div className="projectCardParent">

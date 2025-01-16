@@ -33,14 +33,15 @@ export const personalProjects = [
     name: 'ChatPulse',
     stack: 'React Native',
     description: `A chatting application made in React Native for realtime communication.by using Socket-IO I successfully implemented realtime
-    messaging.this was one of my passion project from long time.`,
-    Features: [
-      { point: 'Real-time communication with users.' },
-      { point: 'Typing status indicators.' },
-      { point: 'Online status visibility.' },
-      { point: 'Easy access to chats.' },
-      { point: 'Users can add profile pictures and crop or rotate them.' },
-    ],
+    messaging.this was one of my passion project from long time.along with realtime messages users canalso see online status and typing status indicators
+   there's option to add profile picture `,
+    // Features: [
+    //   { point: 'Real-time communication with users.' },
+    //   { point: 'Typing status indicators.' },
+    //   { point: 'Online status visibility.' },
+    //   { point: 'Easy access to chats.' },
+    //   { point: 'Users can add profile pictures and crop or rotate them.' },
+    // ],
     images: [
       {
         url: dashboard
@@ -76,12 +77,13 @@ export const personalProjects = [
   {
     name: 'Wall X ',
     stack: 'React Native',
-    description: `Made a wallpaper app using react native.one of the first project I done in React Native.nothing fancy.wallpapers are fetching from Pexels Api`,
-    Features: [
-      { point: 'user can download,view the wallpaper ' },
-      { point: 'select favourite wallpaper option' },
-      { point: 'Dark mode option' },
-    ],
+    description: `Made a wallpaper app using react native.one of the first project I done in React Native.nothing fancy.wallpapers are fetching from Pexels Api
+    users can view ,download or see the details of wallpapers.dark mode and select favourite wallpaper options are also available`,
+    // Features: [
+    //   { point: 'user can download,view the wallpaper ' },
+    //   { point: 'select favourite wallpaper option' },
+    //   { point: 'Dark mode option' },
+    // ],
     images: [
       {
         url: wall_home
@@ -110,14 +112,15 @@ export const personalProjects = [
   {
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
-    description: `Made a finance management app in native android.this project was mainly developed to learn jetpack compose`,
-    Features: [
-      { point: 'Using jetpack compose and Kotlin' },
-      { point: 'RoomDB for local storage' },
-      { point: 'user can add their income with category' },
-      { point: 'also update their expenses as well' },
+    description: `Made a finance management app in native android.this project was mainly developed to learn Jetpack Compose.
+    made on Jetpack Compose.all data are stored locally using RoomDB.users can add income with selecting a category and add their expense also.`,
+    // Features: [
+    //   { point: 'Using jetpack compose and Kotlin' },
+    //   { point: 'RoomDB for local storage' },
+    //   { point: 'user can add their income with category' },
+    //   { point: 'also update their expenses as well' },
 
-    ],
+    // ],
     images: [
       {
         url: money_dashboard

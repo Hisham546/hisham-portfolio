@@ -4,7 +4,7 @@
     height: 100vh; */
     width: 100%;
 
-  background-color: #f3f4f6;
+    background-color: #f3f4f6;
 
     /* align-items: center; */
 
@@ -36,18 +36,19 @@
 
 
 }
-.cardHolder{
+
+.cardHolder {
     display: flex;
     width: 90%;
     justify-content: space-evenly;
     flex-direction: row;
 
 }
-.projectDetailsParent{
-    width: 60%;
 
+.projectDetailsParent {
+    width: 60%;
     justify-content: space-evenly;
-    
+
 }
 
 @keyframes breathing {
@@ -122,11 +123,12 @@
 }
 
 .child2 {
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
 
 
 }
@@ -144,8 +146,8 @@
 
 .featureText {
     color: #181510;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
 
 
 
@@ -161,10 +163,11 @@
 .child3 {
     height: 10vh;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+
+    align-items: flex-start;
     gap: 10px;
     display: flex;
+
 
 
 
@@ -173,8 +176,7 @@
 .child4 {
     height: 10vh;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 10px;
     display: flex;
 
@@ -198,14 +200,14 @@
     width: auto;
     height: auto;
     /* Maintain aspect ratio */
-    max-height: 400px;
+    max-height: 500px;
     object-fit: cover;
 }
 
 .descriptionStyle {
     color: #181510;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
 
     padding: 1%;
 }
@@ -225,7 +227,7 @@
 
 .techStackName {
     color: #181510;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: .8em;
 
 }
@@ -260,6 +262,20 @@
 
 .personalProjects {
     color: rgb(58, 134, 235);
-    font-family: inherit;
-    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.6em;
+}
+.github{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 6%;
+}
+.githubName{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
 }

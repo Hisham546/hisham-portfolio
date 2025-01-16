@@ -63,7 +63,7 @@ function NavBar() {
               activeClass={"text-white bg-blue-500"}
               spy={true}
               smooth={true}
-               className="topHeadings text-base sm:text-lg md:text-xl lg:text-2xl"
+              className="topHeadings text-base sm:text-lg md:text-xl lg:text-2xl"
             >
               {el.name}
             </Link>

@@ -32,8 +32,8 @@ export const personalProjects = [
   {
     name: 'ChatPulse',
     stack: 'React Native',
-    description: `A chatting application made in React Native.
-   `,
+    description: `A chatting application made in React Native for realtime communication.by using Socket-IO I successfully implemented realtime
+    messaging.this was one of my passion project from long time.`,
     Features: [
       { point: 'Real-time communication with users.' },
       { point: 'Typing status indicators.' },
@@ -76,9 +76,8 @@ export const personalProjects = [
   {
     name: 'Wall X ',
     stack: 'React Native',
-    description: `Made a wallpaper app using react native .`,
+    description: `Made a wallpaper app using react native.one of the first project I done in React Native.nothing fancy.wallpapers are fetching from Pexels Api`,
     Features: [
-      { point: 'Wallpapers are pulling from pexel api' },
       { point: 'user can download,view the wallpaper ' },
       { point: 'select favourite wallpaper option' },
       { point: 'Dark mode option' },
@@ -111,7 +110,7 @@ export const personalProjects = [
   {
     name: 'Money Management',
     stack: 'Kotlin,Jetpack compose',
-    description: `Made a finance management app in native android.`,
+    description: `Made a finance management app in native android.this project was mainly developed to learn jetpack compose`,
     Features: [
       { point: 'Using jetpack compose and Kotlin' },
       { point: 'RoomDB for local storage' },

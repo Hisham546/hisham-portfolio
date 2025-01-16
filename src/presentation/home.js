@@ -1,13 +1,10 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import './home.css'
-
-import { TypeAnimation } from 'react-type-animation';
 import { Container, Row, Col } from "react-bootstrap";
-import Type from "../components/data/Type";
-import Particle from "../components/data/Particle";
 import cloud from "../components/assets/images/cloudBg.png";
 import { motion } from "framer-motion";
+import UseAnimations from "react-useanimations";
+import activity from 'react-useanimations/lib/activity';
 export function Home() {
 
 
@@ -16,7 +13,7 @@ export function Home() {
             <Container
                 style={{ backgroundImage: `url('${cloud}')` }}
                 fluid className="home-section" id="home">
-                {/* <Particle/> */}
+
 
                 <Container className="home-content">
                     <Row>
@@ -40,7 +37,19 @@ export function Home() {
 
                         <div style={{ padding: 50, textAlign: "center" }}>
 
-                            <Type />
+                            <p
+
+                                className="shortDescription"  >
+                                <br />
+
+                                A Homo-Sapien who loves to code
+                                {/* <UseAnimations animation={activity} size={36} /> */}
+
+                                <br />
+
+                                <br />
+
+                            </p>
 
                         </div>
 

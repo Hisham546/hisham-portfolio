@@ -12,7 +12,7 @@ function Type() {
         1000,
         "Technology Enthusiast ",
         1000,
-       
+
 
       ]}
       wrapper="span"
@@ -20,11 +20,18 @@ function Type() {
       cursor={false}
       deletionSpeed={{ type: "keyStrokeDelayInMs", value: 60 }}
       omitDeletionAnimation={false}
-   
-       style={{ fontSize: '3em', display: 'inline-block', fontFamily:"inherit",color:'#3a86eb',fontWeight:'bold'  }}
+
+      style={{
+        // fontSize: '3em',
+        // display: 'inline-block',
+        // // fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif",
+        // color: '#3a86eb',
+
+      }}
       repeat={Infinity}
     />
   );
 }
 
 export default Type;
+//  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

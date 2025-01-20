@@ -153,6 +153,15 @@
     max-height: 500px;
     object-fit: cover;
 }
+@media (max-width: 768px) {
+    .image-size {
+        width: 50%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+    }
+}
+
 
 .descriptionStyle {
     color: #181510;

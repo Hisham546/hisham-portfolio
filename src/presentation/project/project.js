@@ -32,11 +32,7 @@ export function Project() {
 
                     {personalProjects.map((data) => (
                         <div className="cardHolder">
-                            {/* <Card
-                                className="projectCard"
-                                key={data.name}
-                            // className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
-                            > */}
+                           
                             <div className="child1">
                                 {data?.images?.map((item) => (
                                     <img alt="" src={item?.url} className="image-size" />
@@ -49,7 +45,7 @@ export function Project() {
 
 
 
-                            {/* </Card> */}
+            
                             <div className="projectDetailsParent  ">
                                 <div className="child2  ">
                                     <h4 className="text-xl font-bold mt-4">{data.name}</h4>

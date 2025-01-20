@@ -1,13 +1,6 @@
 .project-section {
-
-    /* 
-    height: 100vh; */
     width: 100%;
-
     background-color: #f3f4f6;
-
-    /* align-items: center; */
-
 }
 
 .headerTextParent {
@@ -18,23 +11,14 @@
     flex-direction: column;
     align-items: center;
     gap: 6px;
-
-
 }
 
-
 .projectCardParent {
-    /* display: flex; */
-    /* flex-direction: row; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 1em;
     width: 100%;
-
-
-
-
 }
 
 .cardHolder {
@@ -42,51 +26,42 @@
     width: 90%;
     justify-content: space-evenly;
     flex-direction: row;
-
 }
 
 .projectDetailsParent {
     width: 60%;
     justify-content: space-evenly;
-
 }
 
 @keyframes breathing {
     0% {
         transform: scale(1);
-        /* Normal size */
     }
 
     50% {
         transform: scale(1.05);
-        /* Slightly larger */
     }
 
     100% {
         transform: scale(1);
-        /* Back to normal size */
     }
 }
 
 .projectCard {
     height: auto;
     width: 100%;
-    /* Full width on mobile */
     max-width: 450px;
-    /* Limit maximum width for large screens */
     background-color: green;
     flex-direction: column;
     margin: 1em;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
-    /* Smooth scaling on hover */
 }
 
 @media (max-width: 768px) {
     .projectCard {
         margin: 0.5em auto;
-        /* Centers with smaller margin */
     }
 }
 
@@ -115,11 +90,6 @@
     padding: 12px;
     gap: 5px;
     border-radius: 55px;
-
-
-
-
-
 }
 
 .child2 {
@@ -128,9 +98,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-
 }
 
 .features {
@@ -139,18 +106,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-
-
-
 }
 
 .featureText {
     color: #181510;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1em;
-
-
-
 }
 
 .featureText::before {
@@ -163,14 +124,9 @@
 .child3 {
     height: 10vh;
     width: 100%;
-
     align-items: flex-start;
     gap: 10px;
     display: flex;
-
-
-
-
 }
 
 .child4 {
@@ -179,11 +135,6 @@
     align-items: flex-start;
     gap: 10px;
     display: flex;
-
-
-
-
-
 }
 
 .icon-size {
@@ -199,16 +150,14 @@
 .image-size {
     width: auto;
     height: auto;
-    /* Maintain aspect ratio */
     max-height: 500px;
     object-fit: cover;
 }
 
 .descriptionStyle {
     color: #181510;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2em;
-
     padding: 1%;
 }
 
@@ -216,7 +165,7 @@
     .descriptionStyle {
         color: #181510;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: .9em;
+        font-size: 0.9em;
     }
 }
 
@@ -227,15 +176,13 @@
 
 .techStackName {
     color: #181510;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: .8em;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
 }
 
 @media (max-width: 768px) {
     .techStackName {
-        font-size: .5em;
-        /* Reduced size for small screens */
+        font-size: 0.5em;
     }
 }
 
@@ -254,18 +201,17 @@
 @media (max-width: 768px) {
     .techStackWrapper {
         width: 70px;
-        /* Reduced width for small screens */
         height: 30px;
-        /* Reduced height for small screens */
     }
 }
 
 .personalProjects {
     color: rgb(58, 134, 235);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.6em;
 }
-.github{
+
+.github {
     width: 30%;
     height: 50%;
     display: flex;
@@ -274,8 +220,28 @@
     background-color: black;
     border-radius: 6%;
 }
-.githubName{
+
+.githubName {
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.3em;
+}
+
+/* Added Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .cardHolder {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child1 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .projectDetailsParent {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 }

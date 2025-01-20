@@ -81,7 +81,7 @@ html {
 
 .container:hover .content {
   max-height: 200px;
-  /* Adjust this value to control how much the content scrolls */
+
   transition: max-height 0.3s ease-in;
 }
 

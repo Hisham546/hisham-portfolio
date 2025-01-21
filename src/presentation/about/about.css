@@ -32,27 +32,23 @@
 
 .skillHeading {
   color: rgb(58, 134, 235);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.6em;
 }
 
 .littleAboutMe {
   color: rgb(58, 134, 235);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.6em;
 }
 
 .paragraph {
   color: #181510;
   font-size: 1.4em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (max-width: 768px) {
   .paragraph {
     color: #181510;
     font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
 
@@ -60,7 +56,7 @@
   margin-left: 8%;
   color: #181510;
   font-size: 1em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .techStackWrapper {

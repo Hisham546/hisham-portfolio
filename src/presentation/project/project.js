@@ -21,7 +21,7 @@ export function Project() {
                         <strong className="personalProjects">Personal Projects   </strong>
                     </h2>
                     <h2
-                     style={{ fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" }}
+                        style={{ fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" }}
                         className="text-1xl md:text-2xl px-4 md:px-0 text-center"
 
                     >
@@ -32,7 +32,7 @@ export function Project() {
 
                     {personalProjects.map((data) => (
                         <div className="cardHolder">
-                           
+
                             <div className="child1">
                                 {data?.images?.map((item) => (
                                     <img alt="" src={item?.url} className="image-size" />
@@ -45,10 +45,10 @@ export function Project() {
 
 
 
-            
+
                             <div className="projectDetailsParent  ">
                                 <div className="child2  ">
-                                    <h4 className="text-xl font-bold mt-4">{data.name}</h4>
+                                    <h4 className="text-2xl font-bold mt-4">{data.name}</h4>
                                     <p className="descriptionStyle ">{data.description}</p>
                                     {data?.Features?.map((item) => (
 
@@ -90,7 +90,7 @@ export function Project() {
                                     >
 
 
-                                        <h6 className="githubName">Github</h6>
+                                        <h6 className="githubName">SOURCE CODE</h6>
 
                                     </a>
 

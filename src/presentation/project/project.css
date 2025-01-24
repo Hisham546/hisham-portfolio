@@ -151,14 +151,16 @@
     height: auto;
     max-height: 500px;
     object-fit: cover;
+    border-radius:7%;
 }
 
 @media (max-width: 768px) {
     .image-size {
-        width: 50%;
+        width: 100%;
         height: auto;
         max-height: 500px;
         object-fit: cover;
+        border-radius:7%;
     }
 }
 
@@ -240,7 +242,7 @@
     }
 
     .child1 {
-        width: 100%;
+        width: 50%;
         margin-bottom: 1rem;
     }
 

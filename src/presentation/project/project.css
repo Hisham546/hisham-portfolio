@@ -19,7 +19,7 @@
     align-items: center;
     padding: .5em;
     width: 100%;
-   
+
 }
 
 .cardHolder {
@@ -91,7 +91,7 @@
     display: flex;
     padding: 12px;
     gap: 5px;
-   
+
 }
 
 .child2 {
@@ -153,7 +153,7 @@
     height: auto;
     max-height: 500px;
     object-fit: cover;
-    border-radius:3%;
+    border-radius: 3%;
 }
 
 @media (max-width: 768px) {
@@ -162,7 +162,7 @@
         height: auto;
         max-height: 500px;
         object-fit: cover;
-        border-radius:3%;
+        border-radius: 3%;
     }
 }
 
@@ -248,9 +248,45 @@
         margin-bottom: 1rem;
     }
 
+    .child3 {
+        height: 10vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        display: flex;
+
+    }
+
+    .child4 {
+        height: 10vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        display: flex;
+    }
+
+
     .projectDetailsParent {
         width: 100%;
         align-items: center;
         text-align: center;
     }
+    .github {
+        width: 25%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-radius: 6%;
+    }
+    
+    .githubName {
+        color: white;
+        font-size: .6em;
+        font-family: 'Poppins', sans-serif;
+    }
+    
 }

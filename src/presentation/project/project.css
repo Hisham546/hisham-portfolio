@@ -17,15 +17,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 1em;
+    padding: .5em;
     width: 100%;
+   
 }
 
 .cardHolder {
     display: flex;
-    width: 90%;
+    width: 100%;
     justify-content: space-evenly;
     flex-direction: row;
+
 }
 
 .projectDetailsParent {
@@ -89,7 +91,7 @@
     display: flex;
     padding: 12px;
     gap: 5px;
-    border-radius: 55px;
+   
 }
 
 .child2 {
@@ -151,16 +153,16 @@
     height: auto;
     max-height: 500px;
     object-fit: cover;
-    border-radius:7%;
+    border-radius:3%;
 }
 
 @media (max-width: 768px) {
     .image-size {
-        width: 100%;
+        width: 50%;
         height: auto;
         max-height: 500px;
         object-fit: cover;
-        border-radius:7%;
+        border-radius:3%;
     }
 }
 
@@ -242,7 +244,7 @@
     }
 
     .child1 {
-        width: 50%;
+        width: 100%;
         margin-bottom: 1rem;
     }
 

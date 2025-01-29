@@ -6,6 +6,7 @@ import money_dashboard from "./components/assets/images/money-management/money-d
 import money_record from "./components/assets/images/money-management/money-record.png";
 import wall_home from "./components/assets/images/wallpaper/home.png";
 import wall_favourites from "./components/assets/images/wallpaper/favourites.png";
+import wallpaper from "./components/assets/images/wallpaper/wallpaper.png";
 export const techStack = [
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
@@ -93,6 +94,10 @@ export const personalProjects = [
     images: [
       {
         url: wall_home
+
+      },
+      {
+        url: wallpaper
 
       },
       {

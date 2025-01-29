@@ -1,5 +1,6 @@
 
 import chatscreen from "./components/assets/images/chatpulse/chatscreen.png";
+import loginScreen from "./components/assets/images/chatpulse/loginScreen.png";
 import dashboard from "./components/assets/images/chatpulse/dashboard.png";
 import money_dashboard from "./components/assets/images/money-management/money-dashboard.png";
 import money_record from "./components/assets/images/money-management/money-record.png";
@@ -44,13 +45,18 @@ export const personalProjects = [
     // ],
     images: [
       {
+        url: loginScreen
+
+      },
+      {
         url: dashboard
 
       },
       {
         url: chatscreen
 
-      }
+      },
+      
     ],
     techLinks: [
       {

@@ -34,7 +34,7 @@ export const personalProjects = [
     stack: 'React Native',
     description: `A chatting application made in React Native for realtime communication.by using Socket-IO I successfully implemented realtime
     messaging.this was one of my passion project from long time.along with realtime messages users canalso see online status and typing status indicators
-   there's option to add profile picture `,
+   there's option to add profile picture. `,
     // Features: [
     //   { point: 'Real-time communication with users.' },
     //   { point: 'Typing status indicators.' },
@@ -78,7 +78,7 @@ export const personalProjects = [
     name: 'Wall X ',
     stack: 'React Native',
     description: `Made a wallpaper app using react native.one of the first project I done in React Native.nothing fancy.wallpapers are fetching from Pexels Api
-    users can view ,download or see the details of wallpapers.dark mode and select favourite wallpaper options are also available`,
+    users can view ,download or see the details of wallpapers.dark mode and select favourite wallpaper options are also available.`,
     // Features: [
     //   { point: 'user can download,view the wallpaper ' },
     //   { point: 'select favourite wallpaper option' },

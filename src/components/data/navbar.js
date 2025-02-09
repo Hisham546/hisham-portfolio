@@ -37,25 +37,15 @@ function NavBar() {
   ];
 
 
-
-
-
-
-
   return (
     <div
       className='navbar'>
       <div className="decorIcon">
-        {/* <UseAnimations animation={activity} size={36} /> */}
       </div>
       <ul
         className='navbar-menu'
 
       >
-
-
-
-
         {links.map((el) => (
           <li className="cursor-pointer">
             <Link
@@ -79,5 +69,3 @@ function NavBar() {
 
 
 export default NavBar;
-
-//  className="topHeadings"

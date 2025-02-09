@@ -158,14 +158,13 @@
 
 @media (max-width: 768px) {
     .image-size {
-        width: 50%;
+        width: 33%;
         height: auto;
         max-height: 500px;
         object-fit: cover;
         border-radius: 3%;
     }
 }
-
 
 .descriptionStyle {
     color: #181510;
@@ -179,7 +178,6 @@
         font-size: 0.9em;
     }
 }
-
 .source-code {
     color: #83b6e3;
     text-decoration: underline;
@@ -273,6 +271,7 @@
         align-items: center;
         text-align: center;
     }
+
     .github {
         width: 25%;
         height: 50%;
@@ -282,11 +281,11 @@
         background-color: black;
         border-radius: 6%;
     }
-    
+
     .githubName {
         color: white;
         font-size: .6em;
         font-family: 'Poppins', sans-serif;
     }
-    
+
 }

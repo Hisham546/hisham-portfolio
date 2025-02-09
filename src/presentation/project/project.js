@@ -1,18 +1,9 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { Card } from "react-bootstrap";
 import './project.css';
 import { personalProjects } from "../../constant";
-import {
-    AiFillGithub,
-    AiOutlineTwitter,
-    AiFillInstagram,
-} from "react-icons/ai";
 export function Project() {
 
-
     return (
-
         <div id="projects"
             className="project-section">
             <div>
@@ -29,33 +20,22 @@ export function Project() {
                     </h2>
                 </div>
                 <div className="projectCardParent">
-
                     {personalProjects.map((data) => (
                         <div className="cardHolder">
-
                             <div className="child1">
                                 {data?.images?.map((item) => (
                                     <img alt="" src={item?.url} className="image-size" />
                                 ))}
 
                             </div>
-
-
-
-
-
-
-
                             <div className="projectDetailsParent  ">
                                 <div className="child2  ">
                                     <h4 className="text-2xl font-bold mt-4">{data.name}</h4>
                                     <p className="descriptionStyle ">{data.description}</p>
                                     {data?.Features?.map((item) => (
 
-
                                         <div
                                             className="features"
-
                                             key={item.name}>
                                             <p className="featureText">{item?.point}</p>
 
@@ -66,15 +46,10 @@ export function Project() {
                                 </div>
                                 <div className="child3">
                                     {data?.techLinks?.map((item) => (
-
-
                                         <div
                                             className="techStackWrapper"
-
                                             key={item.name}>
                                             <p className="techStackName">{item?.name}</p>
-
-
                                         </div>
 
                                     ))}
@@ -86,10 +61,7 @@ export function Project() {
                                         target="_blank"
                                         rel="noreferrer"
                                         className="github"
-
                                     >
-
-
                                         <h6 className="githubName">SOURCE CODE</h6>
 
                                     </a>

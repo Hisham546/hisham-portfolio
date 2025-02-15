@@ -71,3 +71,25 @@
 .cursor-pointer {
     text-align: center;
 }
+.hamburger-menu{
+margin-right: 25px;
+}
+@media (max-width: 768px) {
+    .navbar-menu {
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 100px;
+        width: 50%;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px 0;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+
+    .navbar-menu.active {
+        display: flex; /* Show menu when active */
+    }
+}

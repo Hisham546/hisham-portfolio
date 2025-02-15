@@ -76,20 +76,20 @@ margin-right: 25px;
 }
 @media (max-width: 768px) {
     .navbar-menu {
-        display: none; /* Initially hidden */
+        display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
-        left: 100px;
+        right: 0;
         width: 50%;
         background-color: white;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         padding: 10px 0;
         z-index: 1000;
         border-radius: 10px;
+        text-align: right;
     }
-
     .navbar-menu.active {
-        display: flex; /* Show menu when active */
+        display: flex; 
     }
 }

@@ -2,7 +2,6 @@ import React from "react";
 import './project.css';
 import { personalProjects } from "../../constant";
 export function Project() {
-
     return (
         <div id="projects"
             className="project-section">
@@ -14,7 +13,6 @@ export function Project() {
                     <h2
                         style={{ fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" }}
                         className="text-1xl md:text-2xl px-4 md:px-0 text-center"
-
                     >
                         I'm also working on personal projects to expand my skill
                     </h2>
@@ -26,23 +24,18 @@ export function Project() {
                                 {data?.images?.map((item) => (
                                     <img alt="" src={item?.url} className="image-size" />
                                 ))}
-
                             </div>
                             <div className="projectDetailsParent  ">
                                 <div className="child2  ">
                                     <h4 className="text-2xl font-bold mt-4">{data.name}</h4>
                                     <p className="descriptionStyle ">{data.description}</p>
                                     {data?.Features?.map((item) => (
-
                                         <div
                                             className="features"
                                             key={item.name}>
                                             <p className="featureText">{item?.point}</p>
-
                                         </div>
                                     ))}
-
-
                                 </div>
                                 <div className="child3">
                                     {data?.techLinks?.map((item) => (
@@ -53,7 +46,6 @@ export function Project() {
                                         </div>
 
                                     ))}
-
                                 </div>
                                 <div className="child4">
                                     <a
@@ -62,24 +54,14 @@ export function Project() {
                                         rel="noreferrer"
                                         className="github"
                                     >
-                                        <h6 className="githubName">SOURCE CODE</h6>
-
+                                       <h6 className="githubName">SOURCE CODE</h6>
                                     </a>
-
-
                                 </div>
                             </div>
                         </div>
-
-
                     ))}
                 </div>
             </div>
-
-
-
         </div>
     )
-
-
 }

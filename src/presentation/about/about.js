@@ -50,39 +50,15 @@ function About() {
                 hidden: { opacity: 1, y: 80 },
               }}
               className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40 shadow-lg"
-
             >
               <img alt="" src={el.link} className="icon-size" />
               <h4 className="techstack-name">{el.name}</h4>
             </motion.div>
           ))}
         </motion.div>
-
-        {/* <h4 className="text-1xl font-bold px-4 md:px-0 mt-2"
-        > 
-       <strong className="skillHeading">   Apart from coding, some other activities that I love to do!</strong>
-        </h4>
-        <ul>
-            <li className="about-activity">
-              <ImPointRight style={{ color: 'black' }} /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight style={{ color: 'black' }} /> Watching movies
-            </li>
-            <li className="about-activity">
-              <ImPointRight style={{ color: 'black' }} /> Travelling
-            </li>
-          </ul> */}
-
       </div>
     </div>
-
-
   )
-
-
-
-
 }
 
 export default About;

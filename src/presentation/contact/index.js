@@ -60,7 +60,6 @@ export function Contact() {
                             href={"https://www.linkedin.com/in/muhammed-hisham-m-i-56a564225/"}
                             target="_blank"
                             rel="noreferrer"
-
                         >
                             <AiFillLinkedin
                                 className="contact-Icon" />
@@ -69,18 +68,13 @@ export function Contact() {
                             href={"https://www.reddit.com/user/Unhappy_Jackfruit378/"}
                             target="_blank"
                             rel="noreferrer"
-
                         >
                             <AiOutlineReddit
                                 className="contact-Icon" />
                         </a>
                     </div>
                 </div>
-
             </div>
-
         </div>
     )
-
-
 }

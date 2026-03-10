@@ -15,33 +15,6 @@ import { Contact } from "./presentation/contact";
 
 function App() {
 
-  // const [load, upadateLoad] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     upadateLoad(false);
-  //   }, 1200);
-
-  //   return () => clearTimeout(timer);
-  // }, []);
-
-
-
-  // return (
-  //   <Router>
-  //     <div className="App" >
-  //       <NavBar />
-  //       {/* <ScrollToTop /> */}
-  //       <Routes>
-  //         <Route path="/" element={<Home />} />
-  //         <Route path="/about" element={<About />} />
-  //         <Route path="/project" element={<Project />} />
-
-  //       </Routes>
-  //     </div>
-  //   </Router>
-
-  // );
   return (
 
     <div  >

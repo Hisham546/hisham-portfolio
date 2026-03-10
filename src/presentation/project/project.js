@@ -14,7 +14,7 @@ export function Project() {
                         style={{ fontFamily: "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" }}
                         className="text-1xl md:text-2xl px-4 md:px-0 text-center"
                     >
-                        I'm also working on personal projects to expand my skill
+                        I'm also working on personal projects on my free time
                     </h2>
                 </div>
                 <div className="projectCardParent">
